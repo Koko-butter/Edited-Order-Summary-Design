@@ -286,6 +286,6 @@ a:hover{
 }
 @media screen and (max-width:376px) {
     .wrapper{
-        width: 100%;
+        width: 90%;
     }
 }
