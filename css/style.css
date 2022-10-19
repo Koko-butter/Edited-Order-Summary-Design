@@ -1,0 +1,291 @@
+body{
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 100% 50%;
+    /* height: 500px; */
+    background-color: hsl(225, 100%, 94%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.wrapper{
+    display: grid;
+    width: 26%;
+    box-shadow: 0px 20px 15px  hsl(227, 75%, 89%);
+    border-radius: 16px 16px 16px 16px;
+}
+.image{
+    width: 100%;
+    height: 170px;
+    border-radius: 16px 16px 0px 0px;
+}
+.sub-container1{
+    width: 100%;
+    height: 170px;
+}
+.sub-container2{
+    width: 100%;
+    height: 370px;
+    background-color: white;
+    text-align: center;
+    border-radius: 0px 0px 16px 16px;
+}
+.sub-container2 h2{
+    margin-top: 35px;
+    /* font: https://fonts.google.com/specimen/Red+Hat+Display */
+}
+.sub-container2 p{
+    color: hsl(224, 23%, 55%);
+}
+.music-div{
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color:  hsl(225, 100%, 98%);
+  border-radius: 13px 13px 13px 13px;
+  width: 80%;
+  height: 80px;
+  padding: 0px 17px 0px 17px;
+}
+.music-svg{
+    width: 50px;
+    height: 50px;
+    margin-block-start:0.9em;
+    margin-block-end: 1em;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.annual-plan{
+    margin-bottom: 0px;
+}
+.amount{
+    margin-block-start:0.3em;
+    margin-block-end: 1em;
+}
+.amount-div{
+    display: block;
+    /* margin-right: 35px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.sub-container2 a{
+    font-size: 15px;
+    margin-block-start:2.1em;
+    margin-block-end: 1em;
+}
+a:hover{
+    color:coral;
+}
+.payment{
+    width: 80%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    margin-top: 25px;
+    box-shadow: 0px 10px 20px   hsl(229, 18%, 77%);
+}
+.order{
+    color:  hsl(223, 47%, 23%);
+    font-size: 14px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    border: none;
+    background-color: white;
+    padding: 0px;
+}
+.order:hover{
+    color:coral;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (min-width:768px) and (max-width:1023px) {
+    body{
+        background: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 100% 50%;
+        background-color: hsl(225, 100%, 94%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .wrapper{
+        margin-top: 50px;
+        width: 70%;
+    }
+     .image{
+        width:100%;
+        height: 260px;
+    }
+    .sub-container1{
+        height: 250px;
+        width: 100%;
+    }
+    .music-div{
+        height: 140px;
+    }
+    .sub-container2{
+        width: 100%;
+        height: 600px;
+    }
+    .sub-container2 a:hover{
+        color:coral;
+    }
+    .sub-container2 h2{
+        margin-top: 40px;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .sub-container2 p{
+        font-size: 29px;
+    }
+    .music-svg{
+        width:90px;
+        height: 90px;
+        margin-block-start: 1.53em;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* margin-block-end: 0.9em; */
+    }
+    .annual-plan{
+        font-size: 29px;
+    }
+    .amount{
+        font-size: 22px;
+    }
+    .sub-container2 a{
+        font-size: 29px;
+    }
+    .payment{
+        height: 75px;
+        font-size: 27px;
+        margin-top: 27px;
+    }
+    .order{
+        margin-top: 30px;
+        font-size: 25px;
+    } 
+    .order:hover{
+        color:coral;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    body{
+        background: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: 100% 50%;
+        background-color: hsl(225, 100%, 94%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .wrapper{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .image{
+        width: 100%;
+        height: 200px;
+    }
+    .sub-container1{
+        width: 100%;
+        height: 200px;
+    }
+    .sub-container2{
+        width: 100%;
+        height:405px;
+    }
+    .sub-container2 h2{
+        margin-top: 40px;
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .sub-container2 p{
+        font-size: 19px;
+        line-break: none;
+        line-height: 20px;
+    }
+    .music-svg{
+        width:60px;
+        height: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .annual-plan{
+        font-size: 17px;
+    }
+    .amount{
+        font-size: 15px;
+    }
+    .order{
+        font-size: 17px;
+        border: 0px;
+    }
+    .sub-container2 a{
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .payment{
+        width: 80%;
+        height: 52px;
+        background-color: hsl(245, 75%, 52%);
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        color: white;
+        margin-top: 25px;
+        box-shadow: 0px 10px 20px   hsl(229, 18%, 77%);
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:280px) {
+    .wrapper{
+        margin-top: 10px;
+    }
+    .sub-container2{
+        height: 460px;
+    }
+    .annual-plan{
+        font-size: 15px;
+    }
+    .amount{
+        font-size: 15px
+    }
+    .sub-container2 a{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+@media screen and (width:320px) {
+    .sub-container2{
+        height: 440px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1195px) {
+    .wrapper{
+        width: 31%;
+    }
+}
+@media screen and (max-width:376px) {
+    .wrapper{
+        width: 100%;
+    }
+}
