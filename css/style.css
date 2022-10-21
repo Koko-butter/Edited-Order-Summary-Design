@@ -200,6 +200,7 @@ a:hover{
     .wrapper{
         width: 90%;
         margin-top: 20px;
+        padding: 0px;
     }
     .image{
         width: 100%;
@@ -284,12 +285,9 @@ a:hover{
     }
 }
 @media screen and (max-width:376px) {
-    .wrapper{
-        /* width: 91%; */
-        padding-bottom: 30px;
-    }
     .sub-container2{
         height: 405px;
+        padding-bottom: 34px;
     }
 }
 @media screen and (max-width:358px) {
