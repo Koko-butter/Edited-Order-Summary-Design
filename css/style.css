@@ -38,7 +38,6 @@ body{
 }
 .sub-container2 h2{
     margin-top: 35px;
-    /* font: https://fonts.google.com/specimen/Red+Hat+Display */
 }
 .sub-container2 p{
     color: hsl(224, 23%, 55%);
@@ -286,6 +285,14 @@ a:hover{
 }
 @media screen and (max-width:376px) {
     .wrapper{
-        width: 90%;
+        width: 85%;
+    }
+    .sub-container2{
+        height: 405px;
+    }
+}
+@media screen and (max-width:358px) {
+    .sub-container2{
+        padding-bottom: 34px;
     }
 }
